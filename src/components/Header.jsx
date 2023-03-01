@@ -1,36 +1,28 @@
+import {dataHeader} from '../lib/pl_PL'
+import '../styles/header.css'
+import '../styles/header__btn.css'
 
 function Header() {
 
-    const users = [
-        {
-            name: 'John',
-            age: 15
-        },
-        {
-            name: 'Jack',
-            age: 20
-        },
-        {
-            name: 'Caroline',
-            age:35
-        }
-    ]
-    
+ 
     return (
-        <div>
-            <p>Home</p>
-            <p>About</p>
-            <p>Contact</p>
-            <ul>
-            {users.map((el,index) =>{
-                return (
-                  <li key={index}>
-                    <p>Name: {el.name}, age: {el.age}</p>
-                  </li>  
-                )
-            })}
-            </ul>
-        </div>
+       <section className='header'>
+            <h1>
+                <div className='header__name'>
+                <span className='gradient'>{'< '}Michał</span> 
+                <span>Nowak{' />'}</span>
+                </div>
+                
+                <div className='header__title'>
+                    <p>Front-end Developer</p>
+                </div>
+
+                
+
+            </h1>
+
+                <a class="header__btn" href="#"><span></span>About me</a>
+       </section>
     )
 
 }
