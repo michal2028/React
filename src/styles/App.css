@@ -1,0 +1,25 @@
+.App{
+  
+  position: relative;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+
+font-size: 62.5%;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+width: 100%;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.test{
+  height: 100vh;
+  width: 100%;
+}
