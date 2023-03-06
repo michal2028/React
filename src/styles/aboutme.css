@@ -1,0 +1,115 @@
+.aboutme{
+    margin-top: 20vh;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.aboutme__img{
+    display: flex;
+    justify-content: flex-start;
+    
+    align-items: center;
+    width: 40%;
+    background-image: url('../img/myphoto.jpg');
+    background-position: center;
+    background-size: cover;
+    scale: .7;
+    height: 50%;
+}
+
+
+
+.aboutme__text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 5em;
+    gap: 1em 0;
+}
+.aboutme__text h3{
+    font-size: 1.5rem;
+}
+.aboutme__text p{
+    font-size: 1.5rem;
+}
+
+.aboutme__text h2{
+    font-size: 3rem;
+    background: linear-gradient(to right,#5f0a87 ,#a4508b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutme__data{
+    display: flex;
+}
+
+.aboutme__data-text{
+    padding: 1em;
+    text-align: center;
+}
+
+.aboutme__data-text span{
+    background: linear-gradient(to right,#5f0a87 ,#a4508b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.aboutme__btn-project{
+    padding: 15px 21px;
+    font-weight: bold;
+    background: linear-gradient(to right,#5f0a87 ,#a4508b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 
+    1.5rem;
+}
+
+.aboutme__btn-project:hover{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.aboutme__btns{
+    display: flex;
+}
+
+
+
+@media (max-width: 820px) {
+    .aboutme__img{
+        /* width: 100%; */
+        padding: 2em;
+    }
+
+    .aboutme__text{
+        /* width: 100%; */
+        margin: 2em;
+    }
+    .aboutme{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutme__btns{
+        margin-top: 4em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutme__data{
+        display: flex;
+        flex-direction: column;
+    }
+}
