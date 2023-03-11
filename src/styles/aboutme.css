@@ -18,8 +18,12 @@
     background-image: url('../img/myphoto.jpg');
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 170px;
+    border-bottom-left-radius: 30px;
     scale: .7;
-    height: 50%;
+    height: 300px;
 }
 
 

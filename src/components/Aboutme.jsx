@@ -4,7 +4,7 @@ const Aboutme = () => {
   return (
     <section id="aboutme" className="aboutme">
       <div className="aboutme__img">
-        <p>IMG</p>
+        
       </div>
       <div className="aboutme__text">
         <h2>About me</h2>

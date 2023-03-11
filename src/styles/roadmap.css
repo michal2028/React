@@ -1,0 +1,14 @@
+.roadmap{
+    height: 100vh;
+    display: flex;
+    padding: 3em;
+}
+
+.roadmap__left{
+    width: 50%;
+    border-right: 1px solid white   ;
+}
+
+.roadmap__right{
+    width: 50%;
+}
